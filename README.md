@@ -1,15 +1,18 @@
 # nicolasgentilucci.github.io
 
-Sito personale statico ospitato su GitHub Pages.
+Personal static presentation website hosted on GitHub Pages.
 
-> Progetto storico (2022), non piu' mantenuto attivamente.
+> Legacy project (2022), no longer actively maintained.
 
-Per i progetti aggiornati vedi:
-- [opencode-orchestrator-kit](https://github.com/NicoGenti/opencode-orchestrator-kit) - orchestratore multi-agente per OpenCode CLI
-- altri repo pubblici sul profilo [NicoGenti](https://github.com/NicoGenti)
+For up-to-date projects, see:
+- [opencode-orchestrator-kit](https://github.com/NicoGenti/opencode-orchestrator-kit) - cost-aware multi-agent orchestrator kit for OpenCode CLI
+- other public repositories on [NicoGenti's profile](https://github.com/NicoGenti)
 
 ## Stack
-HTML5 statico (template), CSS, GitHub Pages.
+Static HTML5 (template-based), CSS, GitHub Pages.
 
 ## Demo
-Sito pubblicato via GitHub Pages su questo repository.
+Published via GitHub Pages from this repository.
+
+## License
+See [LICENSE.txt](./LICENSE.txt).
