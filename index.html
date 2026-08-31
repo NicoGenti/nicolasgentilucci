@@ -11,6 +11,43 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Project Spotlight Icon Box */
+			.spotlights > section > .image.project-icon {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: rgba(255, 255, 255, 0.02);
+				border-right: solid 1px rgba(255, 255, 255, 0.1);
+				text-decoration: none;
+			}
+			.spotlights > section > .image.project-icon .icon.major {
+				margin: 0;
+				width: 4.25em;
+				height: 4.25em;
+				line-height: 4.25em;
+				font-size: 1.6em;
+				background: rgba(255, 255, 255, 0.08);
+				color: #ffffff;
+				border: solid 1px rgba(255, 255, 255, 0.2);
+				transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+			}
+			.spotlights > section:hover > .image.project-icon .icon.major {
+				transform: scale(1.12);
+				background: #ffffff;
+				color: #312450;
+				border-color: #ffffff;
+			}
+			@media screen and (max-width: 980px) {
+				.spotlights > section > .image.project-icon {
+					width: 100%;
+					height: 11em;
+					min-height: 11em;
+					border-right: none;
+					border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -79,7 +116,7 @@
 				<!-- Projects -->
 					<section id="projects" class="wrapper style2 spotlights">
 						<section>
-							<a href="https://github.com/NicoGenti/opencode-orchestrator-kit" class="image" target="_blank" rel="noopener"><img src="images/Azure.png" alt="OpenCode Orchestrator Kit" data-position="center center" /></a>
+							<a href="https://github.com/NicoGenti/opencode-orchestrator-kit" class="image project-icon" target="_blank" rel="noopener"><span class="icon solid major fa-robot"></span></a>
 							<div class="content">
 								<div class="inner">
 									<h2>OpenCode Orchestrator Kit</h2>
@@ -91,7 +128,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="https://nicogenti.github.io/Smartbackup/" class="image" target="_blank" rel="noopener"><img src="images/Azure.png" alt="Smart Backup Azure DevOps" data-position="top center" /></a>
+							<a href="https://nicogenti.github.io/Smartbackup/" class="image project-icon" target="_blank" rel="noopener"><span class="icon solid major fa-shield-alt"></span></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Azure DevOps Smart Backup</h2>
@@ -103,7 +140,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="https://nicogenti.github.io/SharePointBackup/" class="image" target="_blank" rel="noopener"><img src="images/Sharepoint.png" alt="SharePoint Backup" data-position="25% 25%" /></a>
+							<a href="https://nicogenti.github.io/SharePointBackup/" class="image project-icon" target="_blank" rel="noopener"><span class="icon solid major fa-network-wired"></span></a>
 							<div class="content">
 								<div class="inner">
 									<h2>SharePoint Online Backup Suite</h2>
@@ -115,7 +152,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="https://nicogenti.github.io/AutomationRForCentOs7/" class="image" target="_blank" rel="noopener"><img src="images/R.png" alt="Automation R" data-position="25% 25%" /></a>
+							<a href="https://nicogenti.github.io/AutomationRForCentOs7/" class="image project-icon" target="_blank" rel="noopener"><span class="icon solid major fa-terminal"></span></a>
 							<div class="content">
 								<div class="inner">
 									<h2>R Automation &amp; Batch Runtime</h2>
@@ -127,6 +164,7 @@
 							</div>
 						</section>
 						<section>
+							<a href="https://github.com/NicoGenti?tab=repositories" class="image project-icon" target="_blank" rel="noopener"><span class="icon solid major fa-code-branch"></span></a>
 							<div class="content">
 								<div class="inner">
 									<h2>More Open-Source Work</h2>
